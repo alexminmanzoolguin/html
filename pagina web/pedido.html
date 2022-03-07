@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
     <title>PEDIDOS</title>
 
 </head>
 <body>
     <div class="pedido">
         <div class="encabezado">
-            <img src="./img/baner.png" alt="baner">
+            <img src="./img/baner.png" alt="baner" width="1348px"height="175px">
             <div class="nombre">
                 <h2>DULCEMANIAS</h2>
                 <h6>Dulces alegrando corazones</h6>
@@ -27,7 +27,6 @@
                     <li><a href="./pago.html">PAGO</a></li>
                     <li><a href="./rastrear.html">RASTREAR</a></li>
                     <li><a href="./loginadmi.html">ADMINISTRADOR</a></li>
-                        <li><a href="./principal.html">INICIO</a></li>
                         <li><a href="./tablasabore.html">SABORES</a></li>
                         <li><a href="./tablapedidos.html">PEDIDIOS</a></li>
                 </ul>
@@ -35,16 +34,17 @@
         </div>
         <div class="formulario">
             <form action="pago.html">
-                <h3>REALIZAR PEDIDO</h3>
+                <h4>REALIZAR PEDIDO</h4>
                 <div class="fecha">
                     <p>La fecha del pedido es: <input type="date" name="fechadeentrega" id=""></p>
                 </div>
+                <br>
                 <div class="cliente">
                     <h3>Nombre del cliente</h3>
                     <input type="text" name="nombre">
                 </div>
                 <div class="telefono">
-                    <h3>telefono</h3>
+                    <h3>Telefono</h3>
                     <input type="number" name="telefono" >
                 </div>
                 <div class="correo">
@@ -55,8 +55,9 @@
                     <h3>Descripcion</h3>
                     <input type="text" name="descripcion">
                 </div>
-                <div class="saboresuno">
+                <div class="sabor">
                     <h3>Sabores</h3>
+                    <div class="saborunos">
                     <select name="sabor" id="uno">
                     <option value="1">1.-Fresas con crema chantilly</option>
                     <option value="2"> 2.- Moka</option>
@@ -71,6 +72,8 @@
                     <option value="11">personalizado</option>
 
                     </select>
+                </div>
+                <div class="sabordos">
                     <select name="sabor" id="dos">
                         <option value="1">1.-Fresas con crema chantilly</option>
                         <option value="2"> 2.- Moka</option>
@@ -86,19 +89,25 @@
                         <option value="11">solo uno</option>
                     </select>
                 </div>
+                </div>
                 <div class="adornos">
-                    <h3>adorno</h3>
-                    <select name="sabor" id="uno">
+                    <h3>Adorno</h3>
+                    <div class="adornouno">
+                    <select name="adorno" id="uno">
                     <option value="1">moda</option>
                     <option value="2">muestrario</option>
                     <option value="3">imagen personalizada</option>
                     </select>
-                    <select name="sabor" id="dos">
+                </div>
+                <div class="adornodos">
+                        <select name="adorno" id="dos">
                         <option value="1">moda</option>
                     <option value="2">muestrario</option>
                     <option value="3">imagen personalizada</option>
                     </select>
                 </div>
+                </div>
+                   
               <button type="submit">Siguente</button>
           </form>  
         </div>
