@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.login{
+    background-color: aquamarine;
+    height: 180vh;
+    width: 350vh;
+    background-image: url('img/fondodehtml.png');
+    background-size: cover;
+}
+.login img{
+    width:300px;
+    height:300px;
+    float: left;
+    margin: 0px;
+    padding:10px;
+}
+.direccion{
+    position: absolute;
+    width: 1348px;
+    height:25px;
+    top:175%;
+left:0%;
+display: inline-block;
+background-color: rgb(177, 125, 197);
+
+}
+.direccion h2{
+    font-size: 25px;
+    text-align: center;
+    display: block;
+    position: absolute;
+    top:0%;
+    left: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: blue;
+}
+.loginuno{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    top:25%;
+    left: 35%;
+display: inline-block;
+opacity: 0.8;
+background-color: rgb(82, 157, 226);
+}
+.loginuno h3{
+    font-size: 50px;
+    text-align: center;
+    display: block;
+    position: absolute;
+    top:15%;
+    left:30%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(8, 31, 7);
+}
+.loginuno h5{
+    font-size: 25px;
+    text-align: justify;
+    position: relative;
+    top: 170px;
+    left:15%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(20, 94, 112);
+}
+.loginuno input{
+    font-size: 25px;
+    text-align: justify;
+    position: relative;
+    top: 170px;
+    left:15%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:black;
+
+}
+.loginuno button{
+ position: absolute;
+    width: 100px;
+    height: 25px;
+    top:65%;
+    left:37%;
+}
+/*---------------------------------------------------------------------------*/
+/*inicio*/
+.principal{
+    background-color: aquamarine;
+    height: 180vh;
+    background-image: url('img/parainformación\ .png');
+    background-size: cover;
+}
+.principal img{
+    float: left;
+    margin: 0px;
+    padding:0px;
+}
+.nombre{
+    position: absolute;
+    width: 500px;
+    height:150px;
+    top:1%;
+left:30%;
+display: inline-block;
+opacity: 0.8;
+background-color: rgb(89, 73, 233); 
+}
+.nombre h2{
+    font-size: 50px;
+    text-align: center;
+    display: block;
+    position: absolute;
+    top:0%;
+    left: 15%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+}
+.nombre h6{
+    font-size: 25px;
+    text-align: center;
+    display: block;
+    position: absolute;
+    top:38%;
+    left: 18%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+}
+
+.nombre p{
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    position: absolute;
+    top:55%;
+    left: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+}
+
+#menu ul li {
+    background-color:blueviolet;
+}
+#menu ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+    }
+    
+    #menu ul a {
+    display:block;
+    color:rgb(175, 230, 173);
+    text-decoration:none;
+    font-weight:400;
+    font-size:15px;
+    padding:10px;
+    font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      text-transform:uppercase;
+      letter-spacing:1px;
+    }
+    
+    #menu ul li {
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0;
+    }
+    
+    #menu ul li:hover {
+    background:#5b78a7;
+    }
+    
+    #menu ul ul {
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    padding:0;
+    }
+    
+    #menu ul ul li {
+    float:none;
+    width:150px
+    }
+    
+    #menu ul ul a {
+    line-height:120%;
+    padding:10px 15px;
+    }
+    
+    #menu ul li:hover > ul {
+    display:block;
+    }
+
+    .imagenpastel{
+        position:absolute;
+        float:left;
+        margin:0%;
+        padding:0;  
+        top:35%;
+    left:0;
+    }
+    .imagenpedido{
+        position:absolute;
+        float:left;
+        margin:0%;
+        padding:0;  
+        top:35%;
+    left:18%;
+    }
+    .imagenrastreo{
+        position:absolute;
+        float:left;
+        margin:0%;
+        padding:0;  
+        top:35%;
+    left:35%;
+    }
+    .mapa{
+        position:absolute;
+        float:left;
+        margin:0%;
+        padding:0;  
+        top:35%;
+    left:55%; 
+    }
+/*pedido*/
+
+/*rastrear*/
+
+/*pasteles*/
+
+/*tablapadidos*/
+
+/*tablasabore*/
