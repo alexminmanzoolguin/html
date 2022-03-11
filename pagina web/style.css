@@ -551,7 +551,7 @@ select.list-dt:focus {
 }
 .pasteleslistauno{
     width:1250px;
-    height: px;
+    height: 200px;
 position: relative;
 display: inline-block;
     background-color: rgb(32, 190, 156);

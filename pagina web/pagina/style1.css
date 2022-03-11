@@ -123,7 +123,7 @@ background-color: rgb(89, 73, 233);
 .formulario{
     background-color: aquamarine;
     height: 180vh;
-    background-image: url('img/parainformación\ .png');
+    background-image: url('/pagina web/img/parainformación\ .png');
     background-size: cover;
 }
 .formulario h4{
